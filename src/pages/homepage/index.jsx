@@ -1,22 +1,15 @@
 import React, { Fragment } from "react";
 
 import Home from "./homepage.component";
-import Login from "../login/index";
+
 import { connect } from "react-redux";
 import Header from "../../components/header/header";
 
-const Main = ({ user }) => {
-  console.log("userrrr", user);
+const Main = () => {
   return (
     <Fragment>
-      {user.loggedIn ? (
-        <Fragment>
-          <Header />
-          <Home />
-        </Fragment>
-      ) : (
-        <Login />
-      )}
+      <Header />
+      <Home />
     </Fragment>
   );
 };
