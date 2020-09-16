@@ -38,27 +38,30 @@ const HomePage = ({ logout }) => {
   };
 
   return (
-    <div class="wrapper" id="wrapper">
-      <header id="header" class="header sticky--header">
-        <div class="header__top bg--blue">
-          <div class="container">
-            <div class="header__top__inner">
-              <ul class="header__top__info">
+    <div className="wrapper" id="wrapper">
+      <header id="header" className="header sticky--header">
+        <div className="header__top bg--blue">
+          <div className="container">
+            <div className="header__top__inner">
+              <ul className="header__top__info">
                 <li>
                   <a href="callto://+14023561737">
-                    <i class="flaticon-old-typical-phone"></i>Contact: +1 (402)
-                    356-1737
+                    <i className="flaticon-old-typical-phone"></i>Contact: +1
+                    (402) 356-1737
                   </a>
                 </li>
                 <li>
                   <a href="mailto:Versatilecreditpatchup@gmail.com">
-                    <i class="flaticon-black-back-closed-envelope-shape"></i>{" "}
+                    <i className="flaticon-black-back-closed-envelope-shape"></i>{" "}
                     E-mail Address: Versatilecreditpatchup@gmail.com
                   </a>
                 </li>
               </ul>
-              <div class="header__top__button">
-                <a class="cr-btn cr-btn--lg" href="https://wa.me/+14023561737">
+              <div className="header__top__button">
+                <a
+                  className="cr-btn cr-btn--lg"
+                  href="https://wa.me/+14023561737"
+                >
                   <span>Make an appointment</span>
                 </a>
               </div>
@@ -66,10 +69,10 @@ const HomePage = ({ logout }) => {
           </div>
         </div>
 
-        {/* <div class="header__bottom bg--white">
-          <div class="container d-none d-lg-block">
-            <div class="header__bottom__inner"> */}
-        {/* <div class="header__logo">
+        {/* <div className="header__bottom bg--white">
+          <div className="container d-none d-lg-block">
+            <div className="header__bottom__inner"> */}
+        {/* <div className="header__logo">
                 <a href="index.html">
                   <img
                     src="images/logo1.png"
@@ -79,7 +82,7 @@ const HomePage = ({ logout }) => {
                 </a>
               </div> */}
         {/* 
-              <nav id="main-navigation" class="header__menu main-navigation">
+              <nav id="main-navigation" className="header__menu main-navigation">
                 <ul>
                   <li>
                     <a href="#home">HOME</a>
@@ -101,9 +104,9 @@ const HomePage = ({ logout }) => {
         {/* </div>
           </div> */}
 
-        {/* <div class="container d-block d-lg-none">
-            <div class="mobile-menu clearfix d-md-block d-lg-none">
-              <a class="mobile-logo" href="index.html">
+        {/* <div className="container d-block d-lg-none">
+            <div className="mobile-menu clearfix d-md-block d-lg-none">
+              <a className="mobile-logo" href="index.html">
                 <img src="images/logo1.png" alt="logo" />
               </a>
             </div>
@@ -111,25 +114,25 @@ const HomePage = ({ logout }) => {
         </div> */}
       </header>
 
-      <div class="banner-area" id="home">
-        <div class="banner banner-slider-active banner--animated-content">
+      <div className="banner-area" id="home">
+        <div className="banner banner-slider-active banner--animated-content">
           <div
             style={{ backgroundImage: `url(images/1.gif)` }}
-            class="banner__single bg-image--1"
+            className="banner__single bg-image--1"
             data-black-overlay="6"
           >
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-12 offset-0">
-                  <div class="banner__single__content text-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8 offset-lg-2 col-12 offset-0">
+                  <div className="banner__single__content text-center">
                     <h1 style={{ textTransform: "uppercase" }}>
                       Hire &nbsp;
-                      <span class="color--theme">
+                      <span className="color--theme">
                         Professional Credit &nbsp;
                       </span>
-                      <span class="color--theme">Repair</span> Specialist
+                      <span className="color--theme">Repair</span> Specialist
                     </h1>
-                    <a href="https://wa.me/+14023561737" class="cr-btn">
+                    <a href="https://wa.me/+14023561737" className="cr-btn">
                       <span>Contact Now</span>
                     </a>
                   </div>
@@ -140,14 +143,14 @@ const HomePage = ({ logout }) => {
         </div>
       </div>
 
-      <section id="about" class="cr-section about-area bg--white">
-        <div class="container">
-          <div class="about-area__inside">
-            <div class="row">
-              <div class="col-lg-5">
-                <div class="about-area__image" style={{ padding: `0px` }}>
+      <section id="about" className="cr-section about-area bg--white">
+        <div className="container">
+          <div className="about-area__inside">
+            <div className="row">
+              <div className="col-lg-5">
+                <div className="about-area__image" style={{ padding: `0px` }}>
                   <img
-                    class="wow slideInLeft"
+                    className="wow slideInLeft"
                     style={{
                       height: `500px`,
                       marginTop: `0px`,
@@ -159,20 +162,20 @@ const HomePage = ({ logout }) => {
                   />
                 </div>
               </div>
-              <div class="col-lg-7">
-                <div class="about-area__content">
+              <div className="col-lg-7">
+                <div className="about-area__content">
                   <h4>
                     We at “
-                    <span class="color--theme">
+                    <span className="color--theme">
                       VERSATILE CREDIT PATCHUP COMPANY
                     </span>
                     ”
                   </h4>
-                  <h3 class="cd-headline cx-heading slide">
+                  <h3 className="cd-headline cx-heading slide">
                     are deep web experts with years of experience readily
                     available to provide you
-                    <span class="color--theme cd-words-wrapper cd-words-wrapper-2">
-                      <b class="is-visible">quality</b>
+                    <span className="color--theme cd-words-wrapper cd-words-wrapper-2">
+                      <b className="is-visible">quality</b>
                       <b>reliable</b>
                       <b>perfect</b>
                     </span>
@@ -201,7 +204,7 @@ const HomePage = ({ logout }) => {
                     cutting-edge technology, deep therapeutic area knowledge,
                     extensive global hacker-space.
                   </p>
-                  <a href="#about" class="cr-btn">
+                  <a href="#about" className="cr-btn">
                     <span>Read More</span>
                   </a>
                 </div>
@@ -211,23 +214,23 @@ const HomePage = ({ logout }) => {
         </div>
       </section>
 
-      <section id="features-area" class="cr-section features-area">
-        <div class="row no-gutters">
-          <div class="col-lg-4">
-            <div class="feature">
-              <div class="feature__icon">
+      <section id="features-area" className="cr-section features-area">
+        <div className="row no-gutters">
+          <div className="col-lg-4">
+            <div className="feature">
+              <div className="feature__icon">
                 <span>
-                  <i class="flaticon-shield"></i>
+                  <i className="flaticon-shield"></i>
                 </span>
                 <span>
-                  <i class="flaticon-shield"></i>
+                  <i className="flaticon-shield"></i>
                 </span>
               </div>
-              <div class="feature__content">
-                <h4 class="wow fadeInUp">
+              <div className="feature__content">
+                <h4 className="wow fadeInUp">
                   <a href="#!">ENSURE SECURITY</a>
                 </h4>
-                <p class="wow fadeInUp" data-wow-delay="0.15s">
+                <p className="wow fadeInUp" data-wow-delay="0.15s">
                   {" "}
                   We have employers and public liability insurance. No long term
                   contracts, we are here to support you with our exceptional
@@ -237,21 +240,21 @@ const HomePage = ({ logout }) => {
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="feature active">
-              <div class="feature__icon">
+          <div className="col-lg-4">
+            <div className="feature active">
+              <div className="feature__icon">
                 <span>
-                  <i class="flaticon-team"></i>
+                  <i className="flaticon-team"></i>
                 </span>
                 <span>
-                  <i class="flaticon-team"></i>
+                  <i className="flaticon-team"></i>
                 </span>
               </div>
-              <div class="feature__content">
-                <h4 class="wow fadeInUp">
+              <div className="feature__content">
+                <h4 className="wow fadeInUp">
                   <a href="#!">EXPERT TEAM</a>
                 </h4>
-                <p class="wow fadeInUp" data-wow-delay="0.15s">
+                <p className="wow fadeInUp" data-wow-delay="0.15s">
                   Every member of our team is well experienced in their various
                   niches. We have Digital Forensic Specialists, Certified
                   Ethical Hackers, Computer Engineers, Cyber Security Experts,
@@ -261,21 +264,21 @@ const HomePage = ({ logout }) => {
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="feature">
-              <div class="feature__icon">
+          <div className="col-lg-4">
+            <div className="feature">
+              <div className="feature__icon">
                 <span>
-                  <i class="flaticon-24-hours"></i>
+                  <i className="flaticon-24-hours"></i>
                 </span>
                 <span>
-                  <i class="flaticon-24-hours"></i>
+                  <i className="flaticon-24-hours"></i>
                 </span>
               </div>
-              <div class="feature__content">
-                <h4 class="wow fadeInUp">
+              <div className="feature__content">
+                <h4 className="wow fadeInUp">
                   <a href="#!">24/7 SUPPORT</a>
                 </h4>
-                <p class="wow fadeInUp" data-wow-delay="0.15s">
+                <p className="wow fadeInUp" data-wow-delay="0.15s">
                   Includes a team that will handle and process your request from
                   start to finish and provide support even after your project is
                   completed we strive to offer the best hacking services on the
@@ -289,16 +292,16 @@ const HomePage = ({ logout }) => {
 
       <section
         id="services"
-        class="service-area section-padding--xlg bg--white"
+        className="service-area section-padding--xlg bg--white"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title">
                 <h4>OUR SERVICES</h4>
                 <h2>
                   PROVIDE BEST
-                  <span class="color--theme">SERVICES</span>
+                  <span className="color--theme">SERVICES</span>
                 </h2>
                 <p>
                   Hire us to clean off your criminal details from any database
@@ -309,19 +312,19 @@ const HomePage = ({ logout }) => {
               </div>
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <div class="service-area__services">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
+          <div className="row align-items-center">
+            <div className="col-lg-12">
+              <div className="service-area__services">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 wow flipInX">
+                    <div className="service">
+                      <div className="service__icon">
                         <img
                           src="images/icons/service-icon-user.png"
                           alt="service icon"
                         />
                       </div>
-                      <div class="service__content">
+                      <div className="service__content">
                         <h5>
                           <a href="#!">Credit repair service</a>
                         </h5>
@@ -336,15 +339,15 @@ const HomePage = ({ logout }) => {
                     </div>
                   </div>
 
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
+                  <div className="col-lg-6 col-md-6 wow flipInX">
+                    <div className="service">
+                      <div className="service__icon">
                         <img
                           src="images/icons/service-icon-bar.png"
                           alt="service icon"
                         />
                       </div>
-                      <div class="service__content">
+                      <div className="service__content">
                         <h5>
                           <a href="#!">Credit Card Payment</a>
                         </h5>
@@ -358,15 +361,15 @@ const HomePage = ({ logout }) => {
                     </div>
                   </div>
 
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
+                  <div className="col-lg-6 col-md-6 wow flipInX">
+                    <div className="service">
+                      <div className="service__icon">
                         <img
                           src="images/icons/service-icon-briefcase.png"
                           alt="service icon"
                         />
                       </div>
-                      <div class="service__content">
+                      <div className="service__content">
                         <h5>
                           <a href="#!">Bitcoin Mining</a>
                         </h5>
@@ -381,15 +384,15 @@ const HomePage = ({ logout }) => {
                     </div>
                   </div>
 
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
+                  <div className="col-lg-6 col-md-6 wow flipInX">
+                    <div className="service">
+                      <div className="service__icon">
                         <img
                           src="images/icons/service-icon-pie.png"
                           alt="service icon"
                         />
                       </div>
-                      <div class="service__content">
+                      <div className="service__content">
                         <h5>
                           <a href="#!">Tracking</a>
                         </h5>
@@ -407,51 +410,51 @@ const HomePage = ({ logout }) => {
                 </div>
               </div>
             </div>
-            {/* <div class="col-lg-4">
-              <div class="service-area__bars text-center">
-                <div class="cr-bars justify-content-lg-end justify-content-center">
+            {/* <div className="col-lg-4">
+              <div className="service-area__bars text-center">
+                <div className="cr-bars justify-content-lg-end justify-content-center">
                   <div
-                    class="cr-bar"
+                    className="cr-bar"
                     data-bar-percent="25"
                     data-bar-title="2009"
                   ></div>
                   <div
-                    class="cr-bar"
+                    className="cr-bar"
                     data-bar-percent="45"
                     data-bar-title="2016"
                   ></div>
                   <div
-                    class="cr-bar"
+                    className="cr-bar"
                     data-bar-percent="37"
                     data-bar-title="2017"
                   ></div>
                   <div
-                    class="cr-bar"
+                    className="cr-bar"
                     data-bar-percent="69"
                     data-bar-title="2019"
                   ></div>
                   <div
-                    class="cr-bar"
+                    className="cr-bar"
                     data-bar-percent="88"
                     data-bar-title="2020"
                   ></div>
                 </div>
-                <span class="cr-bars__name">Our progress</span>
+                <span className="cr-bars__name">Our progress</span>
               </div>
             </div> */}
           </div>
         </div>
       </section>
 
-      <section id="team" class="advisor-area bg--white">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
-              <div class="section-title text-center">
+      <section id="team" className="advisor-area bg--white">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+              <div className="section-title text-center">
                 <h4>OUR TEAM</h4>
                 <h2>
                   MEET OUR
-                  <span class="color--theme">TEAM MEMBER</span>
+                  <span className="color--theme">TEAM MEMBER</span>
                 </h2>
                 <p>
                   Our Team represents one of the many Teams of a highly
@@ -467,13 +470,13 @@ const HomePage = ({ logout }) => {
               </div>
             </div>
           </div>
-          <div class="row advisors">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <figure class="advisor">
-                <div class="advisor__image">
+          <div className="row advisors">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <figure className="advisor">
+                <div className="advisor__image">
                   <img src="images/advisors/advisor-1.jpg" alt="team member" />
                 </div>
-                <figcaption class="advisor__content">
+                <figcaption className="advisor__content">
                   <h6>
                     <a href="#!">Gerhard Heinz</a>
                   </h6>
@@ -482,12 +485,12 @@ const HomePage = ({ logout }) => {
               </figure>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <figure class="advisor">
-                <div class="advisor__image">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <figure className="advisor">
+                <div className="advisor__image">
                   <img src="images/advisors/advisor-2.jpg" alt="team member" />
                 </div>
-                <figcaption class="advisor__content">
+                <figcaption className="advisor__content">
                   <h6>
                     <a href="#!">Vladislav Arkady</a>
                   </h6>
@@ -496,12 +499,12 @@ const HomePage = ({ logout }) => {
               </figure>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <figure class="advisor">
-                <div class="advisor__image">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <figure className="advisor">
+                <div className="advisor__image">
                   <img src="images/advisors/advisor-3.jpg" alt="team member" />
                 </div>
-                <figcaption class="advisor__content">
+                <figcaption className="advisor__content">
                   <h6>
                     <a href="#!">Vera Lang</a>
                   </h6>
@@ -510,12 +513,12 @@ const HomePage = ({ logout }) => {
               </figure>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <figure class="advisor">
-                <div class="advisor__image">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <figure className="advisor">
+                <div className="advisor__image">
                   <img src="images/advisors/advisor-4.jpg" alt="team member" />
                 </div>
-                <figcaption class="advisor__content">
+                <figcaption className="advisor__content">
                   <h6>
                     <a href="#!">Jeffrey Lucas</a>
                   </h6>
@@ -527,40 +530,40 @@ const HomePage = ({ logout }) => {
         </div>
       </section>
 
-      <div id="funfact-area" class="funfact-area bg--white">
-        <div class="funfacts">
-          <div class="row no-gutters">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div class="funfact text-center">
+      <div id="funfact-area" className="funfact-area bg--white">
+        <div className="funfacts">
+          <div className="row no-gutters">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div className="funfact text-center">
                 <h1>
-                  <span class="">1,588</span>
+                  <span className="">1,588</span>
                 </h1>
                 <h5>TRUSTED CLIENTS</h5>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div class="funfact text-center">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div className="funfact text-center">
                 <h1>
-                  <span class="">102</span>
+                  <span className="">102</span>
                 </h1>
                 <h5>Awards Win</h5>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div class="funfact text-center">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div className="funfact text-center">
                 <h1>
-                  <span class="">2,900</span>
+                  <span className="">2,900</span>
                 </h1>
                 <h5>Project Done</h5>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-              <div class="funfact text-center">
+            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+              <div className="funfact text-center">
                 <h1>
-                  <span class="">6</span>
+                  <span className="">6</span>
                 </h1>
                 <h5>Expert TEAM MEMBER</h5>
               </div>
@@ -570,20 +573,20 @@ const HomePage = ({ logout }) => {
       </div>
       <div
         id="testimonial-area"
-        class="testimonial-area section-padding--xlg bg--grey"
+        className="testimonial-area section-padding--xlg bg--grey"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
-              <div class="testimonial text-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+              <div className="testimonial text-center">
                 <h2>
                   CLIENT
-                  <span class="color--theme">TESTIMONY</span>
+                  <span className="color--theme">TESTIMONY</span>
                 </h2>
 
-                <div class="testimonial__content testimonial-content-slider-active">
+                <div className="testimonial__content testimonial-content-slider-active">
                   {handleSetTestM() === 1 && (
-                    <div class="testimonial__content__single">
+                    <div className="testimonial__content__single">
                       <p>
                         VERSATILE CREDIT PATCHUP COMPANY removed all bad report
                         from my credit report I was able to apply for high limit
@@ -592,7 +595,7 @@ const HomePage = ({ logout }) => {
                     </div>
                   )}
                   {handleSetTestM() === 2 && (
-                    <div class="testimonial__content__single">
+                    <div className="testimonial__content__single">
                       <p>
                         I was damn too broke before my neighbor introduced me to
                         VERSATILE CREDIT PATCHUP COMPANY and with their hacking
@@ -601,7 +604,7 @@ const HomePage = ({ logout }) => {
                     </div>
                   )}
                   {handleSetTestM() === 3 && (
-                    <div class="testimonial__content__single">
+                    <div className="testimonial__content__single">
                       <p>
                         With VERSATILE CREDIT PATCHUP COMPANY live and active
                         tacking softwares, i was able to track my cell phone’s
@@ -611,42 +614,42 @@ const HomePage = ({ logout }) => {
                   )}
                 </div>
 
-                <div class="testimonial__author testimonial-author-slider-active">
+                <div className="testimonial__author testimonial-author-slider-active">
                   {handleSetTestM() === 1 && (
-                    <div class="testimonial__author__single">
-                      <div class="testimonial__author__image">
+                    <div className="testimonial__author__single">
+                      <div className="testimonial__author__image">
                         <img
                           src="images/testimonial/testimonial-author-3.png"
                           alt="testimonial author"
                         />
                       </div>
-                      <div class="testimonial__author__description">
+                      <div className="testimonial__author__description">
                         <h6>Larry hale</h6>
                       </div>
                     </div>
                   )}
                   {handleSetTestM() === 2 && (
-                    <div class="testimonial__author__single">
-                      <div class="testimonial__author__image">
+                    <div className="testimonial__author__single">
+                      <div className="testimonial__author__image">
                         <img
                           src="images/testimonial/testimonial-author-2.png"
                           alt="testimonial author"
                         />
                       </div>
-                      <div class="testimonial__author__description">
+                      <div className="testimonial__author__description">
                         <h6>RAISA MARIYA</h6>
                       </div>
                     </div>
                   )}
                   {handleSetTestM() === 3 && (
-                    <div class="testimonial__author__single">
-                      <div class="testimonial__author__image">
+                    <div className="testimonial__author__single">
+                      <div className="testimonial__author__image">
                         <img
                           src="images/testimonial/testimonial-author-1.png"
                           alt="testimonial author"
                         />
                       </div>
-                      <div class="testimonial__author__description">
+                      <div className="testimonial__author__description">
                         <h6>Evelyn Brian</h6>
                       </div>
                     </div>
@@ -658,13 +661,13 @@ const HomePage = ({ logout }) => {
         </div>
       </div>
 
-      <div class="text-center">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 col-12 ">
-            <div class="section-title">
+      <div className="text-center">
+        <div className="row">
+          <div className="col-lg-8 col-md-10 col-12 ">
+            <div className="section-title">
               <h2>
                 Few Reasons to Choose
-                <span class="color--theme">
+                <span className="color--theme">
                   VERSATILE CREDIT PATCHUP COMPANY
                 </span>
               </h2>
@@ -672,19 +675,19 @@ const HomePage = ({ logout }) => {
             </div>
           </div>
         </div>
-        <div class="row align-items-center " style={{ padding: "10px" }}>
-          <div class="col-lg-8">
-            <div class="service-area__services ">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 wow flipInX">
-                  <div class="service">
-                    <div class="service__icon">
+        <div className="row align-items-center " style={{ padding: "10px" }}>
+          <div className="col-lg-8">
+            <div className="service-area__services ">
+              <div className="row">
+                <div className="col-lg-6 col-md-6 wow flipInX">
+                  <div className="service">
+                    <div className="service__icon">
                       <img
                         src="images/icons/service-icon-user.png"
                         alt="service icon"
                       />
                     </div>
-                    <div class="service__content">
+                    <div className="service__content">
                       <h5>
                         <a href="#!">Quick Service Delivery</a>
                       </h5>
@@ -696,15 +699,15 @@ const HomePage = ({ logout }) => {
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 wow flipInX">
-                  <div class="service">
-                    <div class="service__icon">
+                <div className="col-lg-6 col-md-6 wow flipInX">
+                  <div className="service">
+                    <div className="service__icon">
                       <img
                         src="images/icons/service-icon-bar.png"
                         alt="service icon"
                       />
                     </div>
-                    <div class="service__content">
+                    <div className="service__content">
                       <h5>
                         <a href="#!">WIDE RANGE OF SERVICES</a>
                       </h5>
@@ -717,15 +720,15 @@ const HomePage = ({ logout }) => {
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 wow flipInX">
-                  <div class="service">
-                    <div class="service__icon">
+                <div className="col-lg-6 col-md-6 wow flipInX">
+                  <div className="service">
+                    <div className="service__icon">
                       <img
                         src="images/icons/service-icon-briefcase.png"
                         alt="service icon"
                       />
                     </div>
-                    <div class="service__content">
+                    <div className="service__content">
                       <h5>
                         <a href="#!">ASSURED RESULTS</a>
                       </h5>
@@ -738,15 +741,15 @@ const HomePage = ({ logout }) => {
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 wow flipInX">
-                  <div class="service">
-                    <div class="service__icon">
+                <div className="col-lg-6 col-md-6 wow flipInX">
+                  <div className="service">
+                    <div className="service__icon">
                       <img
                         src="images/icons/service-icon-pie.png"
                         alt="service icon"
                       />
                     </div>
-                    <div class="service__content">
+                    <div className="service__content">
                       <h5>
                         <a href="#!">RAPID RESPONSE</a>
                       </h5>
@@ -761,9 +764,9 @@ const HomePage = ({ logout }) => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="service-area__bars text-center">
-              <img src="images/g-icon.png" />
+          <div className="col-lg-4">
+            <div className="service-area__bars text-center">
+              <img src="images/g-icon.png" alt="g-iconn" />
             </div>
           </div>
         </div>
@@ -771,15 +774,15 @@ const HomePage = ({ logout }) => {
         <section
           style={{ fontSize: "14px", padding: "10px", marginTop: "20px" }}
           id="contact"
-          class="text-center bg--grey--light"
+          className="text-center bg--grey--light"
         >
-          <div class="">
-            <div class="row">
-              <div class="col-lg-10 offset-0">
-                <div class="">
+          <div className="">
+            <div className="row">
+              <div className="col-lg-10 offset-0">
+                <div className="">
                   <h3>
                     NEED ANY HELP AT
-                    <span class=""> VERSATILE CREDIT PATCHUP COMPANY?</span>
+                    <span className=""> VERSATILE CREDIT PATCHUP COMPANY?</span>
                   </h3>
                   <p>
                     Our Goal is to make your digital life secure, safe and
@@ -824,12 +827,12 @@ const HomePage = ({ logout }) => {
           <WhatsAppIcon /> Hi, how can i help you?
         </a>
 
-        <footer id="footer" class="footer-area fixed--footer">
-          <div class="footer-area__copyright bg--dark">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="copyright text-center">
+        <footer id="footer" className="footer-area fixed--footer">
+          <div className="footer-area__copyright bg--dark">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="copyright text-center">
                     ©COPYRIGHT, ALL RIGHTS RESERVED BY
                     <a href="#!">Versatilecreditpatchup</a>
                   </div>
