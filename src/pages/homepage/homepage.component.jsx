@@ -123,9 +123,11 @@ const HomePage = ({ logout }) => {
                 <div class="col-lg-8 offset-lg-2 col-12 offset-0">
                   <div class="banner__single__content text-center">
                     <h1 style={{ textTransform: "uppercase" }}>
-                      Hire
-                      <span class="color--theme">Professional Hacker</span>
-                      <span class="color--theme">Securely</span> and Safely
+                      Hire &nbsp;
+                      <span class="color--theme">
+                        Professional Credit &nbsp;
+                      </span>
+                      <span class="color--theme">Repair</span> Specialist
                     </h1>
                     <a href="https://wa.me/+14023561737" class="cr-btn">
                       <span>Contact Now</span>
@@ -223,7 +225,7 @@ const HomePage = ({ logout }) => {
               </div>
               <div class="feature__content">
                 <h4 class="wow fadeInUp">
-                  <a href="features.html">ENSURE SECURITY</a>
+                  <a href="#!">ENSURE SECURITY</a>
                 </h4>
                 <p class="wow fadeInUp" data-wow-delay="0.15s">
                   {" "}
@@ -247,7 +249,7 @@ const HomePage = ({ logout }) => {
               </div>
               <div class="feature__content">
                 <h4 class="wow fadeInUp">
-                  <a href="features.html">EXPERT TEAM</a>
+                  <a href="#!">EXPERT TEAM</a>
                 </h4>
                 <p class="wow fadeInUp" data-wow-delay="0.15s">
                   Every member of our team is well experienced in their various
@@ -271,7 +273,7 @@ const HomePage = ({ logout }) => {
               </div>
               <div class="feature__content">
                 <h4 class="wow fadeInUp">
-                  <a href="features.html">24/7 SUPPORT</a>
+                  <a href="#!">24/7 SUPPORT</a>
                 </h4>
                 <p class="wow fadeInUp" data-wow-delay="0.15s">
                   Includes a team that will handle and process your request from
@@ -321,9 +323,7 @@ const HomePage = ({ logout }) => {
                       </div>
                       <div class="service__content">
                         <h5>
-                          <a href="single-service.html">
-                            Credit repair service
-                          </a>
+                          <a href="#!">Credit repair service</a>
                         </h5>
                         <p>
                           At VERSATILE CREDIT PATCHUP COMPANY, we can help you
@@ -346,7 +346,7 @@ const HomePage = ({ logout }) => {
                       </div>
                       <div class="service__content">
                         <h5>
-                          <a href="single-service.html">Credit Card Payment</a>
+                          <a href="#!">Credit Card Payment</a>
                         </h5>
                         <p>
                           We help our clients to make payments on their maxed
@@ -368,7 +368,7 @@ const HomePage = ({ logout }) => {
                       </div>
                       <div class="service__content">
                         <h5>
-                          <a href="single-service.html">Bitcoin Mining</a>
+                          <a href="#!">Bitcoin Mining</a>
                         </h5>
                         <p>
                           Bitcoin mining is how the bitcoin network keeps its
@@ -391,7 +391,7 @@ const HomePage = ({ logout }) => {
                       </div>
                       <div class="service__content">
                         <h5>
-                          <a href="single-service.html">Tracking</a>
+                          <a href="#!">Tracking</a>
                         </h5>
                         <p>
                           With the live and active softwares we have at
@@ -439,84 +439,6 @@ const HomePage = ({ logout }) => {
                 <span class="cr-bars__name">Our progress</span>
               </div>
             </div> */}
-          </div>
-        </div>
-      </section>
-      <section
-        id="services"
-        class="service-area section-padding--xlg bg--white"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-title">
-                <h4>OUR SERVICES</h4>
-                <h2>
-                  PROVIDE BEST
-                  <span class="color--theme">SERVICES</span>
-                </h2>
-                <p>
-                  Hire us to clean off your criminal details from any database
-                  system, anytime anywhere, is our profession we offer this
-                  services on daily basis without any complication, all our
-                  clients go court free with no trace of their criminal history.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <div class="service-area__services">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
-                        <img
-                          src="images/icons/service-icon-user.png"
-                          alt="service icon"
-                        />
-                      </div>
-                      <div class="service__content">
-                        <h5>
-                          <a href="single-service.html">
-                            Credit repair service
-                          </a>
-                        </h5>
-                        <p>
-                          At VERSATILE CREDIT PATCHUP COMPANY, we can help you
-                          delete all negative items on your credit report. We
-                          can delete Eviction, Collections, Bankruptcy,
-                          Derogatory Accounts, Hard Inquiries, Delinquents,
-                          Judgements etc.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6 wow flipInX">
-                    <div class="service">
-                      <div class="service__icon">
-                        <img
-                          src="images/icons/service-icon-bar.png"
-                          alt="service icon"
-                        />
-                      </div>
-                      <div class="service__content">
-                        <h5>
-                          <a href="single-service.html">Credit Card Payment</a>
-                        </h5>
-                        <p>
-                          We help our clients to make payments on their maxed
-                          out credit credit cards which also helps their credit
-                          score pretty well. contact us to inquire more
-                          information about how this works.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -736,9 +658,9 @@ const HomePage = ({ logout }) => {
         </div>
       </div>
 
-      <div class="container">
+      <div class="text-center">
         <div class="row">
-          <div class="col-lg-8 col-md-10 col-12">
+          <div class="col-lg-8 col-md-10 col-12 ">
             <div class="section-title">
               <h2>
                 Few Reasons to Choose
@@ -750,9 +672,9 @@ const HomePage = ({ logout }) => {
             </div>
           </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center " style={{ padding: "10px" }}>
           <div class="col-lg-8">
-            <div class="service-area__services">
+            <div class="service-area__services ">
               <div class="row">
                 <div class="col-lg-6 col-md-6 wow flipInX">
                   <div class="service">
@@ -764,7 +686,7 @@ const HomePage = ({ logout }) => {
                     </div>
                     <div class="service__content">
                       <h5>
-                        <a href="single-service.html">Quick Service Delivery</a>
+                        <a href="#!">Quick Service Delivery</a>
                       </h5>
                       <p>
                         For selected services, place order between 00:00 Hrs GMT
@@ -784,7 +706,7 @@ const HomePage = ({ logout }) => {
                     </div>
                     <div class="service__content">
                       <h5>
-                        <a href="single-service.html">WIDE RANGE OF SERVICES</a>
+                        <a href="#!">WIDE RANGE OF SERVICES</a>
                       </h5>
                       <p>
                         Our team is dedicated to offer wide range of ethical
@@ -805,7 +727,7 @@ const HomePage = ({ logout }) => {
                     </div>
                     <div class="service__content">
                       <h5>
-                        <a href="single-service.html">ASSURED RESULTS</a>
+                        <a href="#!">ASSURED RESULTS</a>
                       </h5>
                       <p>
                         {" "}
@@ -826,7 +748,7 @@ const HomePage = ({ logout }) => {
                     </div>
                     <div class="service__content">
                       <h5>
-                        <a href="single-service.html">RAPID RESPONSE</a>
+                        <a href="#!">RAPID RESPONSE</a>
                       </h5>
                       <p>
                         Get response within 30 minutes. Once you fill up the
@@ -839,39 +761,45 @@ const HomePage = ({ logout }) => {
               </div>
             </div>
           </div>
+          <div class="col-lg-4">
+            <div class="service-area__bars text-center">
+              <img src="images/g-icon.png" />
+            </div>
+          </div>
         </div>
 
         <section
+          style={{ fontSize: "14px", padding: "10px", marginTop: "20px" }}
           id="contact"
-          class="cta-area section-padding--sm bg--grey--light bg--abstruct-mask"
+          class="text-center bg--grey--light"
         >
-          <div class="container">
+          <div class="">
             <div class="row">
-              <div class="col-lg-10 offset-lg-1 col-md-12 offset-0">
-                <div class="calltoaction text-center">
+              <div class="col-lg-10 offset-0">
+                <div class="">
                   <h3>
                     NEED ANY HELP AT
-                    <span class="color--theme">
-                      {" "}
-                      VERSATILE CREDIT PATCHUP COMPANY?
-                    </span>
+                    <span class=""> VERSATILE CREDIT PATCHUP COMPANY?</span>
                   </h3>
                   <p>
                     Our Goal is to make your digital life secure, safe and
                     hassle-free and provide you access to any digital control.,
                     and most of all secure. contact us now{" "}
                   </p>
-                  <h6>
+                  <b>
                     JUST DAIL:
                     <a href="callto://+14023561737"> +1 (402) 356-1737</a>
-                  </h6>
-                  <h6>
+                  </b>
+                  <br />
+                  <b>
                     OR CONTACT US THROUGH EMAIL:
-                    <a href="mailto:Versatilecreditpatchup@gmail.com">
-                      {" "}
+                    <a
+                      style={{ padding: "5px" }}
+                      href="mailto:Versatilecreditpatchup@gmail.com"
+                    >
                       Versatilecreditpatchup@gmail.com
                     </a>
-                  </h6>
+                  </b>
                 </div>
               </div>
             </div>
