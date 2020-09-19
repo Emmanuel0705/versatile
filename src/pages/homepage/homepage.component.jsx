@@ -6,7 +6,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import tawkTo from "tawkto-react";
 import "./style.css";
 
-import Modal from "@material-ui/core/Modal";
+// import Modal from "@material-ui/core/Modal";
 // import Spinner from "../../components/spinner/spinner.component";
 // import Progress from "../../components/Progress";
 // import OTP from "../../components/otp";
@@ -19,7 +19,7 @@ const HomePage = ({ logout }) => {
   }, []);
 
   const [testmNumber, setTestmNumber] = useState(1);
-  const [form, setForm] = useState(false);
+  // const [form, setForm] = useState(false);
   // const handleTransfer = () => {
   //   setModal(true);
   //   setTimeout(() => {
@@ -42,7 +42,7 @@ const HomePage = ({ logout }) => {
 
   return (
     <Fragment>
-      <Modal
+      {/* <Modal
         open={form}
         onClose={() => false}
         aria-labelledby="simple-modal-title"
@@ -108,7 +108,7 @@ const HomePage = ({ logout }) => {
             <button className="pricing-btn">Submit</button>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
       <div className="wrapper" id="wrapper">
         <header id="header" className="header sticky--header">
@@ -536,9 +536,9 @@ const HomePage = ({ logout }) => {
                   <li>Up to 10 deletions and 10</li>
                   <li>late payments updated</li>
                 </ul>
-                <button onClick={() => setForm(true)} className="pricing-btn">
-                  ORDER NOW
-                </button>
+                <a href="mailto:Versatilecreditpatchup@gmail.com">
+                  <button className="pricing-btn">ORDER NOW</button>
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12 ">
@@ -546,18 +546,18 @@ const HomePage = ({ logout }) => {
                 <p className="pricing-title">Premium</p>
                 <p className="pricing-price">$1,500</p>
                 <ul>
-                  <li>Standard Negative Deletions</li>
+                  <li>Minimum Negative Deletions</li>
                   <li>Minor Disputes</li>
-                  <li>Basic Clean Up</li>
+                  <li>Bad Debt Collector Disputes</li>
                   <li>Correct Payment History</li>
-                  <li>(2-3 Weeks turn around) Score hack - 790</li>
+                  <li>New trade lines up to</li>
+                  <li>$3,500.00 - additional fees apply</li>
                   <li>Includes Opt-Out Reporting</li>
-                  <li>Up to 10 deletions and 10</li>
-                  <li>late payments updated</li>
+                  <li>Up to 20 deletions and 20 late payments updated</li>
                 </ul>
-                <button onClick={() => setForm(true)} className="pricing-btn">
-                  ORDER NOW
-                </button>
+                <a href="mailto:Versatilecreditpatchup@gmail.com">
+                  <button className="pricing-btn">ORDER NOW</button>
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12 ">
@@ -565,18 +565,19 @@ const HomePage = ({ logout }) => {
                 <p className="pricing-title">Professional</p>
                 <p className="pricing-price">Contact Us</p>
                 <ul>
-                  <li>Standard Negative Deletions</li>
-                  <li>Minor Disputes</li>
-                  <li>Basic Clean Up</li>
-                  <li>Correct Payment History</li>
-                  <li>(2-3 Weeks turn around) Score hack - 790</li>
+                  <li>All Basic Package</li>
+                  <li>Advanced Deletions and Public Records</li>
+                  <li>Heavy Credit Disputes</li>
+                  <li>Bad Debt Collector Disputes</li>
+                  <li>
+                    New trade lines up to $10,000.00 – additional fees apply
+                  </li>
                   <li>Includes Opt-Out Reporting</li>
-                  <li>Up to 10 deletions and 10</li>
-                  <li>late payments updated</li>
+                  <li>Unlimited deletions and Unlimited payments updated</li>
                 </ul>
-                <button onClick={() => setForm(true)} className="pricing-btn">
-                  ORDER NOW
-                </button>
+                <a href="mailto:Versatilecreditpatchup@gmail.com">
+                  <button className="pricing-btn">ORDER NOW</button>
+                </a>
               </div>
             </div>
           </div>
