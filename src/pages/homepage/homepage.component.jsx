@@ -485,12 +485,15 @@ const HomePage = ({ logout }) => {
                 </div>
               </div>
               <div style={{ paddingTop: "30px" }}>
-                <h2>
+                <h2 style={{ paddingLeft: "20px" }}>
                   MORE OF
                   <span className="color--theme"> OUR SERVICES</span>
                 </h2>
-                <div className="container row" style={{ paddingTop: "10px" }}>
-                  <div className="col-sm-6 col-md-4 col-xs-12">
+                <div
+                  className="row"
+                  style={{ padding: "10px", width: "100%", margin: "auto" }}
+                >
+                  <div className="col-sm-6 col-md-4 col-xs-12 mb-4">
                     <div className="card">
                       <img src="images/paypal.jpeg" alt="g-iconn" />
                       <h4 style={{ padding: "10px" }}>Paypal money adder</h4>
@@ -504,7 +507,7 @@ const HomePage = ({ logout }) => {
                       </p>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-md-4 col-xs-12">
+                  <div className="col-sm-6 col-md-4 col-xs-12 mb-4">
                     <div className="card">
                       <img src="images/phone.jpg" alt="g-iconn" />
                       <h4 style={{ padding: "10px" }}>Mobile Phone Hacks</h4>
