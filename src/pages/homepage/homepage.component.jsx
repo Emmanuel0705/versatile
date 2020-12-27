@@ -374,7 +374,7 @@ const HomePage = ({ logout }) => {
                   <h4>OUR SERVICES</h4>
                   <h2>
                     PROVIDE BEST
-                    <span className="color--theme">SERVICES</span>
+                    <span className="color--theme"> SERVICES</span>
                   </h2>
                   <p>
                     Hire us to clean off your criminal details from any database
@@ -480,6 +480,51 @@ const HomePage = ({ logout }) => {
                           </p>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style={{ paddingTop: "30px" }}>
+                <h2>
+                  MORE OF
+                  <span className="color--theme"> OUR SERVICES</span>
+                </h2>
+                <div className="container row" style={{ paddingTop: "10px" }}>
+                  <div className="col-sm-6 col-md-4 col-xs-12">
+                    <div className="card">
+                      <img src="images/paypal.jpeg" alt="g-iconn" />
+                      <h4 style={{ padding: "10px" }}>Paypal money adder</h4>
+                      <p style={{ padding: "10px" }}>
+                        PayPal Money Adder software (or PayPal Money Generator
+                        or free paypal money adder) is a piece of app that adds
+                        money straight to your PayPal account absolutely free.
+                        All you do is get the software, run the app (or use the
+                        web free PayPal Money app), fill the form and then you
+                        receive the money.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-4 col-xs-12">
+                    <div className="card">
+                      <img src="images/phone.jpg" alt="g-iconn" />
+                      <h4 style={{ padding: "10px" }}>Mobile Phone Hacks</h4>
+                      <p style={{ padding: "10px" }}>
+                        Golden Bridge Team of Professionals can Carry out remote
+                        cloning on android phones, plant ransomware, secret
+                        recording bugs and key-loggers … We can also spy phones
+                        without the phone user knowing!
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-sm-6 col-md-4 col-xs-12">
+                    <div className="card">
+                      <img src="images/expung.jpg" alt="g-iconn" />
+                      <h4 style={{ padding: "10px" }}>Criminal Expungements</h4>
+                      <p style={{ padding: "10px" }}>
+                        Hire us to clean off your criminal details from any
+                        database system, anytime anywhere, is our profession we
+                        offer this services on daily basis
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -987,6 +1032,22 @@ const HomePage = ({ logout }) => {
 
           <footer id="footer" className="footer-area fixed--footer">
             <div className="footer-area__copyright bg--dark">
+              <div className="container row">
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <img src="images/1.png" alt="g-iconn" />
+                </div>
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <img src="images/2.png" alt="g-iconn" />
+                </div>
+
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <img src="images/4.png" alt="g-iconn" />
+                </div>
+
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <img src="images/6.png" alt="g-iconn" />
+                </div>
+              </div>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
