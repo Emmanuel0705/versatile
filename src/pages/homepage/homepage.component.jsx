@@ -13,8 +13,8 @@ import "./style.css";
 
 const HomePage = ({ logout }) => {
   // const [modal, setModal] = useState(false);
-  // const tawkToPropertyId = "5f60bd7d4704467e89ef20d7";
-  const tawkToPropertyId = "5f60bd7d4704467e89e";
+  const tawkToPropertyId = "5f60bd7d4704467e89ef20d7";
+  // const tawkToPropertyId = "5f60bd7d4704467e89e";
   useEffect(() => {
     tawkTo(tawkToPropertyId);
   }, []);
